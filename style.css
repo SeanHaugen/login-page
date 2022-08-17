@@ -1,0 +1,99 @@
+*,::after,::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    background: linear-gradient(#2BC0E4, #EAECC6);
+}
+
+.title {
+    text-align: center;
+    font-family: 'Rubik Dirt';
+    font-size: 3em;
+}
+
+main {
+    display: flex;
+    width: auto;
+}
+
+.container {
+    height: 100%;
+    display: grid;
+    grid-gap: 10px;
+}
+
+.two {
+    width: 70%;
+    height: 100vh;
+    margin-left: 1em;
+    margin-right: 1em;
+    background-image: url(./img/luca-bravo-O453M2Liufs-unsplash.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.one {
+    width: 30%;
+    text-align: center;
+    
+}
+
+#signup {
+    display: flex;
+    flex-flow: column wrap;
+    visibility: hidden;
+}
+
+form {
+    position: relative;
+    z-index: 1;
+    background: #1a5b6bad;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+
+  form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4c77af;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+
+  }
+
+footer {
+    text-align: center;
+    margin-top: 3em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.fa {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    font-size: 2em;
+}
